@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8338ec;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#stopWatch{
+    font-size: 90px;
+    color: #ffbe0b;
+    margin-bottom: 40px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #83c5be;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #bbd0ce;
+
+}
